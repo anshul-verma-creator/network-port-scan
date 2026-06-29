@@ -28,7 +28,7 @@ PORT   STATE SERVICE
 53/tcp open  domain
 MAC Address: 6E:3B:CE:6B:3B:A3 (Unknown)
 
-Nmap scan report for 10.217.228.20
+Nmap scan report for 10.217.xxx.xx
 Host is up (0.0000070s latency).
 Not shown: 995 closed tcp ports (reset)
 PORT     STATE SERVICE
@@ -66,7 +66,7 @@ Only **2 hosts** responded out of 256 addresses scanned in the subnet, indicatin
 - These services are likely required for local development work (e.g., running local databases), but they should ideally be:
   - Bound only to `localhost` (127.0.0.1) rather than all network interfaces, if external access isn't needed.
   - Protected by a firewall rule restricting access to trusted IPs only.
-- No high-risk ports were found open on the hotspot/gateway device (10.217.228.141) beyond standard DNS service.
+- No high-risk ports were found open on the hotspot/gateway device (10.217.xxx.xx) beyond standard DNS service.
 
 ## Recommendations
 1. Disable or firewall SMB (139/445) if file sharing across the network isn't required.
